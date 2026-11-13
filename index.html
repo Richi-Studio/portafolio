@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio By Richi · Portafolio de Andrés Rangel</title>
+<meta name="description" content="Portafolio de Andrés Rangel (Richi), Studio By Richi: logos, branding, redes sociales, contenido de agencia, cartelería, UX y motion. Bogotá, Colombia.">
+<meta property="og:title" content="Studio By Richi · Ideas que se ven bien">
+<meta property="og:description" content="Logos, branding, redes sociales y video para marcas y emprendimientos.">
+<meta property="og:image" content="img/sbr-logo-blanco.png">
+<link rel="icon" href="img/sbr-mono.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="top" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="Studio By Richi, inicio"><img src="img/sbr-logo-blanco.png" alt="" width="64" height="64"><span>Studio By Richi</span></a>
+    <nav aria-label="Principal">
+      <ul id="menu"></ul>
+    </nav>
+    <a class="pill pill-y" href="#contacto">Hablemos</a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+</header>
+
+<main id="contenido">
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Diseño gráfico · Bogotá</p>
+        <h1>Ideas que<br>se ven <em>bien.</em></h1>
+        <p class="lead">Soy <strong>Richi</strong>. Diseño logos, marcas, redes sociales y video para emprendimientos y marcas que quieren verse claras y recordarse.</p>
+        <div class="cta">
+          <a class="pill pill-y" href="#logos">Ver trabajo ↓</a>
+          <a class="pill pill-line" href="#contacto">Escríbeme</a>
+        </div>
+        <ul class="stats" id="stats" aria-label="Resumen"></ul>
+      </div>
+      <figure class="hero-fig">
+        <div class="blob" aria-hidden="true"></div>
+        <img src="img/avatar.webp" alt="Avatar 3D de Richi: joven con gafas, camiseta negra sin mangas y pantalón cargo" width="402" height="1200">
+      </figure>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div id="marquee"></div></div>
+
+  <!-- Secciones por tema (se generan desde data/proyectos.js) -->
+  <div id="secciones"></div>
+
+  <!-- SOBRE MÍ -->
+  <section class="band claro" id="sobre-mi">
+    <div class="wrap">
+      <header class="band-head">
+        <span class="num" aria-hidden="true">08</span>
+        <div><p class="eyebrow">Sobre mí</p><h2 id="sm-titulo"></h2></div>
+      </header>
+      <div class="about">
+        <div id="sm-texto"></div>
+        <div>
+          <h3 class="mini">Herramientas</h3>
+          <ul class="chips" id="sm-tools"></ul>
+          <h3 class="mini">Cómo trabajo</h3>
+          <ol class="steps" id="sm-proceso"></ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="band amarillo contacto" id="contacto">
+    <div class="wrap">
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Hacemos algo <span>juntos?</span></h2>
+      <a class="mail" id="mail" href="#"></a>
+      <div class="cta cta-center">
+        <a class="pill pill-k" id="mail2" href="#">Escríbeme ✉</a>
+        <a class="pill pill-line-k" id="ig" target="_blank" rel="noopener" href="#">Instagram ↗</a>
+        <a class="pill pill-line-k" id="be" target="_blank" rel="noopener" href="#">Behance ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap"><span>© 2026 Andrés Rangel · Studio By Richi</span><span id="ciudad"></span></div>
+</footer>
+
+<!-- Visor de imágenes -->
+<dialog class="lb" id="lb" aria-label="Visor de imagen">
+  <button class="lb-x" aria-label="Cerrar">✕</button>
+  <button class="lb-n lb-prev" aria-label="Anterior">‹</button>
+  <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-n lb-next" aria-label="Siguiente">›</button>
+</dialog>
+
+<dialog class="lb vb" id="vb" aria-label="Reproductor de reel">
+  <button class="lb-x" aria-label="Cerrar">✕</button>
+  <button class="lb-n vb-prev" aria-label="Reel anterior">‹</button>
+  <figure><video id="vb-video" controls playsinline preload="none"></video><figcaption id="vb-cap"></figcaption></figure>
+  <button class="lb-n vb-next" aria-label="Reel siguiente">›</button>
+</dialog>
+
+<script src="data/imagenes.js"></script>
+<script src="data/proyectos.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
