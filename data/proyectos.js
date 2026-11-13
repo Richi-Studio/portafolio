@@ -45,7 +45,7 @@ const SECCIONES = [
       { nombre: 'NÜRIA', tags: ['Identidad visual', 'Bienestar', 'Empaque'], behance: 'https://www.behance.net/gallery/258470075/NUERIA-Identidad-visual-para-una-marca-de-bienestar',
         texto: 'Identidad completa: logotipo, paleta violeta y azul, tarjetas, empaque y piezas para redes.',
         imgs: [['br-nuria','Collage de la marca NÜRIA con frascos, empaque y tarjetas'],['br-nuria-mock','Mockup de NÜRIA con caja, frasco y tarjetas'],['br-nuria-paleta','Paleta de color de NÜRIA aplicada en mockups']] },
-      { nombre: 'KOMORA', tags: ['Identidad visual', 'Regalos', 'Empaque'],
+      { nombre: 'KOMORA', tags: ['Identidad visual', 'Regalos', 'Empaque'], behance: 'https://www.behance.net/gallery/258470315/KOMORA-Identidad-visual-para-detalles-y-regalos',
         texto: 'Marca para detalles y regalos: logo, caja, bolsa, papel de empaque, papelería y perfil en redes.',
         imgs: [['br-komora-caja','Caja blanca con moño y logo KOMORA'],['br-komora-caja2','Caja guinda con el símbolo de KOMORA'],['br-komora-papel','Paquete envuelto con el patrón de KOMORA'],['br-komora-cel','Perfil de KOMORA en el celular']] },
       { nombre: 'BioTonic', tags: ['Creación de marca', 'Producto'],

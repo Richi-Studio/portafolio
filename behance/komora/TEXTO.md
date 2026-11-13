@@ -1,7 +1,7 @@
 # Behance · Proyecto KOMORA
 
 ## Título
-KOMORA · Identidad visual para una marca de detalles y regalos
+KOMORA · Identidad visual para detalles y regalos
 
 ## Descripción (pegar en el campo de descripción)
 KOMORA es una marca de Bogotá que vende detalles y regalos por Instagram y WhatsApp. Su propósito es que dar algo a alguien se sienta tan especial como recibirlo, y su frase lo resume: "Detalles que dejan huella".
@@ -42,3 +42,6 @@ Illustrator, Photoshop (ajusta a las que realmente usaste)
 - **Textos de marca:** salen de tu presentación de marca (propósito, símbolo, paleta y tipografías). La firma "una marca de HCLA" y los nombres de la familia no los incluí, para no publicar datos personales.
 - **Lanzamiento:** el estudio de usuario de Instagram indica que el nombre de usuario aún no está reservado. Cuando lo elijas, podemos añadir el perfil real a la descripción.
 - **Paleta:** el vinotinto es #6E1633, la mandarina #F2703A, la lavanda #BFB2F0, la tiza #FAF6F5 y la ciruela noche #2B1020 (tomados de tu presentación).
+
+## Nota técnica
+Behance limita el título a 55 caracteres y la descripción a 1000; la versión publicada tiene una descripción más corta que la de arriba (con la misma nota de IA).
