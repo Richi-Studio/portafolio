@@ -39,7 +39,7 @@ const SECCIONES = [
       { nombre: 'Lucerne', tags: ['Marca conceptual', 'Perfumería', 'Branding'], behance: 'https://www.behance.net/gallery/257601457/Lucerne',
         texto: 'Identidad para una marca conceptual de perfumería premium: logo y variaciones, paleta, tipografías, tarjetas, bolsa y stickers.',
         imgs: [['br-lucerne-hero','Lucerne, fragancias que hablan por ti: presentación de la identidad'],['br-lucerne-cards','Tarjetas de presentación de Lucerne en negro y arena'],['br-lucerne-card-front','Tarjeta de Lucerne, frente'],['br-lucerne-card-back','Tarjeta de Lucerne, reverso con datos de contacto'],['br-lucerne-tote','Bolsa de tela con el logo de Lucerne'],['br-lucerne-stickers','Stickers circulares con el logo de Lucerne']] },
-      { nombre: 'Luca', tags: ['Manual de marca', 'App', 'Finanzas'],
+      { nombre: 'Luca', tags: ['Manual de marca', 'App', 'Finanzas'], behance: 'https://www.behance.net/gallery/258469765/Luca-Tus-cuentas-claras',
         texto: 'Manual de marca para una app de finanzas personales en pesos colombianos: logo, color, tipografía, voz y más de 70 íconos.',
         imgs: [['br-luca','Mockup de la app Luca en tema claro y oscuro, con tarjeta e ícono'],['br-luca-versiones','Luca: versiones del logo según el fondo'],['br-luca-color','Luca: colores de marca, añil, mango, crema y blanco'],['br-luca-tipo','Luca: tipografías Nunito e Inter'],['br-luca-iconos','Luca: sistema de 73 íconos']] },
       { nombre: 'NÜRIA', tags: ['Identidad visual', 'Bienestar', 'Empaque'],
@@ -146,7 +146,7 @@ const SECCIONES = [
     bajada: 'Diseño pensado para usarse: pantallas claras, sistema de componentes y marca que se siente igual en la app.',
     servicio: 'UI de app · sistema de diseño · wireframes',
     grupos: [
-      { nombre: 'Luca · App de finanzas', tags: ['UI', 'App', 'Sistema de diseño'],
+      { nombre: 'Luca · App de finanzas', tags: ['UI', 'App', 'Sistema de diseño'], behance: 'https://www.behance.net/gallery/258469765/Luca-Tus-cuentas-claras',
         texto: 'Pantallas de la app: inicio, presupuestos, metas, informes y cuentas, con la misma identidad del manual de marca.',
         imgs: [['ux-hero','Presentación de Luca: tus cuentas claras, en pesos'],['ux-1','Pantalla de inicio de Luca'],['ux-2','Pantalla de presupuestos de Luca'],['ux-3','Pantalla de informes de Luca'],['ux-4','Pantalla de cuentas de Luca']] }
     ]
