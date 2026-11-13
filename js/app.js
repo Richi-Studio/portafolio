@@ -134,7 +134,10 @@
   SOBRE_MI.texto.forEach(t => $('#sm-texto').appendChild(el('p', { text: t })));
   SOBRE_MI.herramientas.forEach(t => $('#sm-tools').appendChild(el('li', { text: t })));
   SOBRE_MI.proceso.forEach(([n, t, d]) => $('#sm-proceso').appendChild(el('li', {}, [el('b', { text: n }), el('div', {}, [el('strong', { text: t }), el('span', { text: d })])])));
-  ['#mail', '#mail2'].forEach(s => $(s).setAttribute('href', 'mailto:' + CONTACTO.correo));
+  $('#mail').setAttribute('href', 'mailto:' + CONTACTO.correo);
+  /* El botón abre Gmail en una pestaña nueva: mailto: no hace nada si el equipo no tiene app de correo */
+  $('#mail2').setAttribute('href', 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(CONTACTO.correo) + '&su=' + encodeURIComponent('Hola Studio By Richi, quiero cotizar un proyecto'));
+  $('#mail2').setAttribute('target', '_blank'); $('#mail2').setAttribute('rel', 'noopener');
   $('#mail').textContent = CONTACTO.correo;
   $('#ig').href = CONTACTO.instagram; $('#be').href = CONTACTO.behance; $('#ciudad').textContent = CONTACTO.ciudad;
 
