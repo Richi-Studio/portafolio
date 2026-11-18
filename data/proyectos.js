@@ -129,16 +129,13 @@ const SECCIONES = [
   },
   {
     id: 'carteleria', num: '05', titulo: 'Cartelería e ilustración', tema: 'oscuro',
-    bajada: 'Piezas con personalidad: afiches, personajes y exploraciones gráficas donde la idea manda sobre la plantilla.',
-    servicio: 'Afiches · ilustración · flyers · exploración visual',
+    bajada: 'Piezas con personalidad: afiches, flyers y personajes donde la idea manda sobre la plantilla.',
+    servicio: 'Afiches · ilustración · flyers',
     grupos: [
       { nombre: 'Afiches y flyers', tags: ['Cartel', 'Flyer'],
         imgs: [['ca-wisin','Afiche conceptual: Wisin y Yandel, el dúo de la historia'],['ca-velitas','Flyer Día de las velitas'],['ca-halloween','Flyer Halloween, dulces terror']] },
       { nombre: 'Personajes e ilustración', tags: ['Ilustración'],
-        imgs: [['ca-gnomo','Ilustración 3D de un gnomo verde'],['ca-cerdo','Ilustración de un cerdo con cuchilla'],['ca-bruto','Ilustración de personaje con cuernos'],['ca-pixel','Personaje en pixel art']] },
-      { nombre: 'Escorpión · Expresión digital', tags: ['Exploración', 'Vector'],
-        texto: 'Proceso de un mismo animal en varios lenguajes: fotografía, boceto, vector y collage.',
-        imgs: [['ca-aracnido','Cartel: un arácnido nocturno'],['ca-esc-1','Collage de escorpión sobre montañas'],['ca-esc-2','Escorpión sobre ilustración de montañas'],['ca-esc-vector','Escorpión en vector naranja']] }
+        imgs: [['ca-gnomo','Ilustración 3D de un gnomo verde'],['ca-cerdo','Ilustración de un cerdo con cuchilla'],['ca-bruto','Ilustración de personaje con cuernos'],['ca-pixel','Personaje en pixel art']] }
     ]
   },
   {
